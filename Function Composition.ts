@@ -14,6 +14,8 @@ Time Complexity:O(n) (Iterates once over functions)
 Space Complexity:O(1) (Only one variable temp)
 */
 
+
+//another solution found
 /*
 function compose(functions: F[]): F {
     return (x) => functions.reduceRight((acc, fn) => fn(acc), x);
