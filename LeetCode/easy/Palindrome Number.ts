@@ -24,5 +24,3 @@ function isPalindrome(x: number): boolean {
     }
     return x === reversed || x === Math.floor(reversed / 10);
 }
-
-// console.log(isPalindrome(122131))
